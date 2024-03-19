@@ -29,12 +29,12 @@ function declararVariables() {
     let num1 = 7;
     let num2 = 16;
     let num3 = 42;
-    let suma = num1 + num2 + num3;
+    let suma = num1 + num2 + num3
     let resta = num1 - num3;
     let multi = num2 * num3;
     let divi = num1 / 120;
     
-    alert("la suma es " + suma + "\n la resta es " + resta + "\n la multi es " + multi + "\n la division es " + divi );
+    alert(`la suma es: ${suma}  \n la resta es: ${resta} \n la multi es: ${multi} \n la division es: ${divi} `);
     }
     
     // Ejercicio 4: Manipulación de cadenas
@@ -46,7 +46,7 @@ function declararVariables() {
     let n_casa = "8401";
     let mens = direccion + " " + n_casa;
     let long = mens.length;
-    alert("Direccion: " + mens +"\nLongitud: " + long +"\nantepenultimo Caracter: " + mens[3]);
+    alert(`Direccion: ${mens} \nLongitud: ${long} \nantepenultimo Caracter:${mens[3]}`);
     }
 
     function Suma_indices() {
