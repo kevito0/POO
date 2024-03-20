@@ -48,13 +48,18 @@ function declararVariables() {
     let long = mens.length;
     alert(`Direccion: ${mens} \nLongitud: ${long} \nantepenultimo Caracter:${mens[3]}`);
     }
-
+    
+    // Ejercicio 5:suma de valores
+    // Instrucciones: Crear una función llamada “Suma_indices()”
+    // Crear un arreglo  de largo 7 (1,2,3,4,5,6,7)
+    // Sumar el ultimo valor, con el penúltimo más el 1 valor de las posiciones
+    // Mostrar el resultado en el HTML con un Alert
     function Suma_indices() {
     let array = [1, 2, 3, 4, 5, 6, 7];
     let long2 = array[array.length -1]
     let long3 = array[array.length -2]
     let long1 = array[0];
     let resul = long1 + long2 + long3
-
+    
     alert("el resultado es :"+ resul )
     }
