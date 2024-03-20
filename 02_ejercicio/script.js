@@ -51,8 +51,10 @@ function declararVariables() {
 
     function Suma_indices() {
     let array = [1, 2, 3, 4, 5, 6, 7];
-    let long = array.length;
-    let resul = array[6] + array[5] + long
+    let long2 = array[array.length -1]
+    let long3 = array[array.length -2]
+    let long1 = array[0];
+    let resul = long1 + long2 + long3
 
     alert("el resultado es :"+ resul )
     }
