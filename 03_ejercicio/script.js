@@ -28,10 +28,11 @@ function operandoMetodos(){
     array.push(777)
     array.unshift(777)
 
+    const suma = array.reduce((total, valor) => total + valor, 0);
 
-    
     alert("Arreglo inicial: " + arrayInicial.join(", ") +
     "\nArreglo final: " + array.join(", ") +
     "\nValor eliminado del inicio: " + eliminaInicio +
-    "\nValor eliminado del final: " + eliminaFinal );
+    "\nValor eliminado del final: " + eliminaFinal +
+    "\nValor de suma: " + suma );
 }
