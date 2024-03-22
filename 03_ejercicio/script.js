@@ -34,6 +34,7 @@ function operandoMetodos(){
     "\nArreglo final: " + array.join(", ") +
     "\nValor eliminado del inicio: " + eliminaInicio +
     "\nValor eliminado del final: " + eliminaFinal +
-    "\nValores Agregados: 777, 777" +
+    "\nValor Agregado inicio: 777" +
+    "\nValor Agregado final: 777" +
     "\nValor de suma: " + suma );
 }
